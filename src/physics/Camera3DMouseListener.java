@@ -17,8 +17,8 @@ public class Camera3DMouseListener extends MouseAdapter {
 
     static {
         try {
-//            robot = new Robot();
-//        } catch (AWTException ignored) {}
+            robot = new Robot();
+        } catch (AWTException ignored) {}
     }
 
     @Override
